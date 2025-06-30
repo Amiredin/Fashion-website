@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Afro Style Kenya</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop" alt="Afro Style Kenya Logo" class="logo-img">
+                <h1>Afro Style Kenya</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/about.html" class="nav-link">About Us</a></li>
+                    <li><a href="/products.html" class="nav-link active">Products</a></li>
+                    <li><a href="/gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="/contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="/register.html" class="nav-link register-btn">Register</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Collections</h1>
+                <p>Discover our premium fashion collections for every member of your family</p>
+            </div>
+        </section>
+
+        <section class="product-categories">
+            <div class="container">
+                <div class="category-nav">
+                    <button class="category-btn active" data-category="all">All Products</button>
+                    <button class="category-btn" data-category="men">Men's Wear</button>
+                    <button class="category-btn" data-category="women">Women's Wear</button>
+                    <button class="category-btn" data-category="children">Children's Wear</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <!-- Men's Collection -->
+                <div id="men" class="product-category">
+                    <h2>Men's Collection</h2>
+                    <div class="products-grid">
+                        <div class="product-item" data-category="men">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Traditional Shirt">
+                            <div class="product-details">
+                                <h3>Kitenge Traditional Shirt</h3>
+                                <p>KSh 3,500</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="men">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="African Print Suit">
+                            <div class="product-details">
+                                <h3>African Print Suit</h3>
+                                <p>KSh 8,500</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="men">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Casual Polo">
+                            <div class="product-details">
+                                <h3>Ankara Casual Polo</h3>
+                                <p>KSh 2,800</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="men">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Dashiki">
+                            <div class="product-details">
+                                <h3>Modern Dashiki</h3>
+                                <p>KSh 4,200</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Women's Collection -->
+                <div id="women" class="product-category">
+                    <h2>Women's Collection</h2>
+                    <div class="products-grid">
+                        <div class="product-item" data-category="women">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ankara Dress">
+                            <div class="product-details">
+                                <h3>Elegant Ankara Dress</h3>
+                                <p>KSh 4,500</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="women">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Kente Skirt">
+                            <div class="product-details">
+                                <h3>Kente Wrap Skirt</h3>
+                                <p>KSh 3,200</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="women">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="African Blouse">
+                            <div class="product-details">
+                                <h3>African Print Blouse</h3>
+                                <p>KSh 2,800</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="women">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Traditional Gown">
+                            <div class="product-details">
+                                <h3>Traditional Evening Gown</h3>
+                                <p>KSh 7,500</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Children's Collection -->
+                <div id="children" class="product-category">
+                    <h2>Children's Collection</h2>
+                    <div class="products-grid">
+                        <div class="product-item" data-category="children">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Kids Outfit">
+                            <div class="product-details">
+                                <h3>Colorful Kids Outfit</h3>
+                                <p>KSh 1,800</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="children">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Baby Dress">
+                            <div class="product-details">
+                                <h3>Baby African Dress</h3>
+                                <p>KSh 1,500</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="children">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Boys Shirt">
+                            <div class="product-details">
+                                <h3>Boys Kitenge Shirt</h3>
+                                <p>KSh 2,000</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-item" data-category="children">
+                            <img src="https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Girls Set">
+                            <div class="product-details">
+                                <h3>Girls Matching Set</h3>
+                                <p>KSh 2,200</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Afro Style Kenya</h3>
+                    <p>Premium African-inspired fashion for the modern Kenyan family.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/products.html">Products</a></li>
+                        <li><a href="/gallery.html">Gallery</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📍 Westlands, Nairobi, Kenya</p>
+                    <p>📞 +254 700 123 456</p>
+                    <p>✉️ info@afrostylekenya.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Afro Style Kenya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+</html>
